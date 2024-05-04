@@ -3,7 +3,7 @@ import laptop from '../assets/3757822.jpg'
 import { IoPencil } from 'react-icons/io5'
 const Experts = () => {
   return (
-    <div className='max-w-[1240px] mx-auto  my-10 p-2  md:grid grid-cols-3'>
+    <div className='max-w-[1240px] mx-auto  my-10 p-2  md:grid grid-cols-3  bg-gradient-to-tr from-purple-200 via-orange-150to-transparent'>
       <div className=" col-span-1 md:w-[80%] w-[60%] text-center flex">
 <img src={laptop} alt="" className='inline' />
       </div>

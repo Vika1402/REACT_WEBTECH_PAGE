@@ -3,7 +3,7 @@ import { IoClose, IoMenu } from "react-icons/io5";
 const Header = () => {
   const [togle, setTogle] = useState(false);
   return (
-    <div className="bg-blue-400 p-4 ">
+    <div className=" bg-cyan-600 p-4 ">
       <div className="max-w-[1200px] py-[20px] mx-auto flex justify-between gap-2 items-center">
         <div className="text-3xl items-center">WebTech</div>
         {togle ? (
